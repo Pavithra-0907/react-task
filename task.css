@@ -1,0 +1,190 @@
+.card1{
+	border: 2px solid #3A3A33;
+	padding: 1%;
+	margin: 1%;
+	font-size: 40%;
+	
+	background-color: skyblue;
+	
+	width: 30%;
+	
+}
+img{
+	width: 90%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 100%
+}
+.card2{
+	border: 2px solid #3A3A33;
+	padding: 1%;
+	margin: 1%;
+	font-size: 100%;
+	background-color: skyblue;
+	
+	
+	width: 70%;
+	
+
+}
+.resume{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid #ddd;
+	padding: 1%; 
+	margin: 1%;
+	justify-content: space-around;
+	background-color: pink;
+	width: 100%;
+	
+}
+@media only screen and (max-width: 959px){
+.card1{
+	border: 2px solid #3A3A33;
+	padding: 1%;
+	margin: 1%;
+	font-size: all;
+	
+	background-color: skyblue;
+	
+	width: 30%;
+	height: auto;
+	
+}
+img{
+	width: 90%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 100%
+}
+.card2{
+	border: 2px solid #3A3A33;
+	padding: 1%;
+	margin: 1%;
+	font-size: 100%;
+	background-color: skyblue;
+	
+	
+	width: 70%;
+	height: auto;
+	
+	
+
+}
+.table.a{
+	table-layout: fixed;
+	width: auto;
+}
+.resume{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid #ddd;
+	padding: 1%; 
+	margin: 1%;
+	justify-content: space-around;
+	background-color: pink;
+	width: 100%;
+	height: auto;
+	
+}
+}
+@media only screen and (max-width: 575px){
+.card1{
+	border: 2px solid #3A3A33;
+	padding: 1%;
+	margin: 1%;
+	font-size: 40%;
+	
+	background-color: skyblue;
+	
+	width: 50%;
+	
+}
+img{
+	width: 90%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 100%
+}
+.card2{
+	border: 2px solid #3A3A33;
+	padding: 1%;
+	margin: 1%;
+	font-size: 100%;
+	background-color: skyblue;
+	
+	
+	width: auto;
+	
+
+}
+.resume{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #ddd;
+	padding: 1%; 
+	margin: 1%;
+	justify-content: space-around;
+	background-color: pink;
+	width: auto;
+	
+}
+}
+@media only screen and (max-width: 372px){
+.card1{
+	border: 2px solid #3A3A33;
+	padding: 1%;
+	margin: 1%;
+	font-size: 40%;
+	
+	background-color: skyblue;
+	
+	width: 70%;
+	
+}
+img{
+	width: 90%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 100%
+}
+.card2{
+	border: 2px solid #3A3A33;
+	padding: 1%;
+	margin: 1%;
+	font-size: 100%;
+	background-color: skyblue;
+	
+	
+	width:90%;
+	
+
+}
+.table.a{
+	table-layout: fixed;
+	width: 85%;
+}
+.resume{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #ddd;
+	padding: 1%; 
+	margin: 1%;
+	justify-content: space-around;
+	background-color: pink;
+	width: 100%;
+	
+}	
+}
